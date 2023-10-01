@@ -1,0 +1,71 @@
+*{
+    margin: 5px;padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48vw;
+    height: auto;
+    border: 1px solid ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.left{
+    background-color: bisque;
+    font-size: 2rem;
+    line-height: 60px;
+    
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4DFFF;
+}
+img{
+    /* width: 70%; */
+    width: 30vw;
+    /* border-radius: 50%; */
+}
+.img{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.name{
+    color: rgb(89, 89, 1);
+}
+.heading{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem ;
+    background-color: #dffff5;
+    color: #EC1356;
+}
+.list{
+    display: flex;
+    background-color: #D2E0FB;
+    flex-direction: column;
+    min-height: 100px;
+}
+.list div{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: #9EDDFF;
+    height: 40px;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+
+}
